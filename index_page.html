@@ -1,20 +1,38 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-SHVD729QKT"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Your Page Title (Keep under 60 characters)</title>
+    <meta name="title" content="Your Page Title">
+    <meta name="description" content="Enter a compelling description here (150-160 characters) to improve your search engine click-through rate.">
+    <meta name="robots" content="index, follow">
 
-  gtag('config', 'G-SHVD729QKT');
-</script>
-<title>Home</title>
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.yourdomain.com/">
+    <meta property="og:title" content="Your Page Title">
+    <meta property="og:description" content="Enter a compelling description here for social media shares.">
+    <meta property="og:image" content="https://www.yourdomain.com/social-share-image.jpg">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.yourdomain.com/">
+    <meta property="twitter:title" content="Your Page Title">
+    <meta property="twitter:description" content="Enter a compelling description here for Twitter.">
+    <meta property="twitter:image" content="https://www.yourdomain.com/social-share-image.jpg">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SHVD729QKT"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-SHVD729QKT', {
+            'anonymize_ip': true,
+            'cookie_flags': 'SameSite=None;Secure'
+        });
+    </script>
 </head>
 <body>
-<h1>Welcome</h1>
-<p>We sell items</p>
-<img src="img1.jpg">
-<a href="#">Click here</a>
-</body>
+    </body>
 </html>
